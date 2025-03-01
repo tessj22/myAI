@@ -13,13 +13,8 @@ export const AILogo = () => (
 
 export const NatrolLogo = () => (
   <div className="w-12 h-12 relative">
-    <Image
-  src="/Natrol_logo.png"
-  alt="Natrol Logo"
-  width={74}
-  height={74}
-  layout="intrinsic" // Or layout="responsive"
-/>
+    <Image src="/Natrol_logo.png" alt="Natrol Logo" width={80} height={80} />
+    <div className="w-2 h-2 rounded-full bg-green-500 absolute -bottom-0.5 -right-0.5"></div>
   </div>
 );
 
