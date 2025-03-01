@@ -21,13 +21,12 @@ export default function ChatHeader({
       <div className="flex w-full">
         <div className="flex-0 w-[100px]"></div>
         <div className="flex-0 w-[100px]">
-  <Image
-    src="/Natrol_logo.png"
-    alt="Natrol Logo"
-    width={32}
-    height={32}
-    className="md:w-48 md:h-48"
-  />
+          <Image
+  src="/Natrol_logo.png"
+  alt="Natrol Logo"
+  layout="intrinsic" 
+  className="md:w-48 md:h-48"
+/>
 </div>
         <div className="flex-1 flex justify-center items-center gap-2">
           <AILogo />
@@ -35,14 +34,14 @@ export default function ChatHeader({
         </div>
         <div className="flex-0 w-[100px] flex justify-end items-center">
           <Button
-            onClick={clearMessages}
-            className="gap-2 shadow-sm"
-            variant="outline"
-            size="sm"
-          >
-            <EraserIcon className="w-4 h-4" />
-            <span>{CLEAR_BUTTON_TEXT}</span>
-          </Button>
+  onClick={clearMessages}
+  className="gap-2 shadow-sm bg-white"
+  variant="outline"
+  size="sm"
+>
+  <EraserIcon className="w-4 h-4" />
+  <span>{CLEAR_BUTTON_TEXT}</span>
+</Button>
         </div>
       </div>
     </div>
