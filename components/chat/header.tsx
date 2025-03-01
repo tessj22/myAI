@@ -21,11 +21,11 @@ export default function ChatHeader({
       <div className="flex w-full">
         <div className="flex-0 w-[100px]"></div>
         <div className="flex-0 w-[100px]">
-          <Image
+         <Image
   src="/Natrol_logo.png"
   alt="Natrol Logo"
-  layout="intrinsic" 
-  className="md:w-48 md:h-48"
+  layout="responsive"
+  className="md:w-48" // Adjust width as needed
 />
 </div>
         <div className="flex-1 flex justify-center items-center gap-2">
