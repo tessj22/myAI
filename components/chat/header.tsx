@@ -12,8 +12,8 @@ export const AILogo = () => (
 );
 
 export const NatrolLogo = () => (
-  <div className="w-12 h-12 relative"> {/* Adjust size as needed */}
-    <Image src="/Natrol_logo.png" alt="Natrol Logo" width={48} height={48} /> 
+  <div className="w-12 h-12 relative">
+    <Image src="/Natrol_logo.png" alt="Natrol Logo" width={74} height={74} /> 
   </div>
 );
 
