@@ -1,7 +1,8 @@
 # Read Me
-Create your own AI Assistant, powered by ringel.AI
+Natrol Sleep AI Assistant, powered by ringel.AI
 
-This repo makes it easy to configure and deploy your own AI Assistant using Vercel and Pinecone. 
+This repo configures and deploys an AI Assistant using Vercel and Pinecone. 
 
 For documentation, contact Daniel Ringel and visit www.ringel.AI 
 
+This is a project for school, and is in no way affiliated with Natrol
