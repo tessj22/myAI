@@ -19,7 +19,7 @@ export default function Terms() {
         <ol className="list-decimal list-inside space-y-4">
           <li className="text-gray-700">
             <span className="font-semibold">Acceptance of Terms:</span> By
-            accessing and using the AI chatbot ("Guess That Quote!") created by Tess
+            accessing and using the AI chatbot ("Natrol Sleep Assistant") created by Tess
             ("Provider"), you acknowledge that you have read, understood, and
             agreed to be bound by these Terms of Use. If you do not agree with
             these terms, do not use the Chatbot.
