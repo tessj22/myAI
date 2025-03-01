@@ -11,6 +11,12 @@ export const AILogo = () => (
   </div>
 );
 
+export const NatrolLogo = () => (
+  <div className="w-12 h-12 relative"> {/* Adjust size as needed */}
+    <Image src="/Natrol_logo.png" alt="Natrol Logo" width={48} height={48} /> 
+  </div>
+);
+
 export default function ChatHeader({
   clearMessages,
 }: {
@@ -20,13 +26,10 @@ export default function ChatHeader({
     <div className="z-10 flex justify-center items-center fixed top-0 w-full p-5 bg-white shadow-[0_10px_15px_-3px_rgba(255,255,255,1)]">
       <div className="flex w-full">
         <div className="flex-0 w-[100px]"></div>
+        <div className="flex-0 w-[100px]"> {/* Adjust width if needed */}
+  <NatrolLogo /> 
+</div>
         <div className="flex-0 w-[100px]">
-         <Image
-  src="/Natrol_logo.png"
-  alt="Natrol Logo"
-  layout="responsive"
-  className="md:w-48" // Adjust width as needed
-/>
 </div>
         <div className="flex-1 flex justify-center items-center gap-2">
           <AILogo />
