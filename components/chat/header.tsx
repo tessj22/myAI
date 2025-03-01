@@ -20,15 +20,15 @@ export default function ChatHeader({
     <div className="z-10 flex justify-center items-center fixed top-0 w-full p-5 bg-white shadow-[0_10px_15px_-3px_rgba(255,255,255,1)]">
       <div className="flex w-full">
         <div className="flex-0 w-[100px]"></div>
-        <div className="flex-1 flex justify-center items-center gap-2">
-        <Image 
-          src="Natrol_logo.png" 
-          alt="Image description" 
-          width={32} 
-          height={32} 
-          className="md:w-48 md:h-48" 
-        /> 
-      </div>
+        <div className="flex-0 w-[100px]">
+  <Image
+    src="/Natrol_logo.png"
+    alt="Natrol Logo"
+    width={32}
+    height={32}
+    className="md:w-48 md:h-48"
+  />
+</div>
         <div className="flex-1 flex justify-center items-center gap-2">
           <AILogo />
           <p>{CHAT_HEADER}</p>
