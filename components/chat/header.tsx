@@ -19,13 +19,13 @@ export const AILogo = () => (
 
 export default function ChatHeader({ clearMessages }: { clearMessages: () => void }) {
   return (
-    <div className="z-10 flex justify-between items-center fixed top-0 w-full p-5 bg-white shadow-[0_10px_15px_-3px_rgba(255,255,255,1)]">
-      <div className="flex items-center gap-4"> {/* Left section */}
-        <NatrolLogo /> {/* Added logo here */}
+    <div className="z-10 flex justify-between items-center fixed top-0 w-full px-5 py-3 bg-white shadow-md">
+      <div className="flex items-center gap-4"> 
+        <NatrolLogo /> 
       </div>
       <div className="flex-1 flex justify-center items-center gap-2">
         <AILogo />
-        <p>{CHAT_HEADER}</p>
+        <p className="text-lg font-medium">{CHAT_HEADER}</p>
       </div>
       <div className="flex justify-end items-center">
         <Button onClick={clearMessages} className="gap-2 shadow-sm bg-white" variant="outline" size="sm">
@@ -36,3 +36,4 @@ export default function ChatHeader({ clearMessages }: { clearMessages: () => voi
     </div>
   );
 }
+
