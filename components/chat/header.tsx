@@ -15,7 +15,7 @@ export const AILogo = () => (
     <Image src="/ai-logo.png" alt={AI_NAME} width={48} height={48} />
     <div className="w-2 h-2 rounded-full bg-green-500 absolute -bottom-0.5 -right-0.5"></div>
   </div>
-);
+);  
 
 export default function ChatHeader({ clearMessages }: { clearMessages: () => void }) {
   return (
@@ -35,3 +35,4 @@ export default function ChatHeader({ clearMessages }: { clearMessages: () => voi
       </div>
     </div>
   );
+}
