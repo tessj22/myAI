@@ -5,8 +5,8 @@ import { CHAT_HEADER, CLEAR_BUTTON_TEXT } from "@/configuration/ui";
 import { AI_NAME } from "@/configuration/identity";
 
 export const NatrolLogo = () => (
-  <div className="w-20 h-20 relative"> {/* Adjust size as needed */}
-    <Image src="/Natrol_logo.png" alt="Natrol Logo" width={80} height={80} />
+  <div className="w-40 h-auto relative">
+    <Image src="/Natrol_logo.png" alt="Natrol Logo" width={160} height={0} />
   </div>
 );
 
